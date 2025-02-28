@@ -39,7 +39,7 @@ void loop() {
         doTransmission();
     }
     Serial.println("Done. Waiting...");
-    delay(4000);  // 10 sekund przerwy
+    delay(4000);  // 4 sekund przerwy
 }
 
 bool generatePayload() {
